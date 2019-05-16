@@ -23,7 +23,7 @@ main(){
 	printf("Digite a senha:");
 	gets(in_senha);
 	int i = strcmp(in_senha,log_senha);
-	if(i==0)
+	if(!i)
 	printf("Acesso Permitido");
 	else{
 	
