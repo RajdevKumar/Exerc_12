@@ -1,3 +1,11 @@
+/*
+
+7. Escreva um programa para ler 3 valores inteiros (considere que não serão lidos valores iguais). Deverá
+devolve-los por ordem crescente e por ordem decrescentes.
+Guarde o programa com o nome Exercicio_P7.
+
+*/
+
 #include<stdio.h>
 #include<locale.h>
 main()
