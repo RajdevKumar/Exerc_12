@@ -16,7 +16,8 @@ Guarde o programa com o nome Exercicio_P9.
 #include<stdio.h>
 #include<locale.h>
 #include<string.h>
-main(){
+main()
+{
 	setlocale(LC_ALL,"portuguese");
 	char in_senha[100];
 	char log_senha[]="1234";
@@ -24,12 +25,11 @@ main(){
 	gets(in_senha);
 	int i = strcmp(in_senha,log_senha);
 	if(!i)
-	printf("Acesso Permitido");
-	else{
+		printf("Acesso Permitido");
+
+	else
 	
-	printf("Acesso negado\n");
-	puts(in_senha);
-	printf("\n");
-	puts(log_senha);
-}
+		printf("Acesso negado\n");
+
+
 }

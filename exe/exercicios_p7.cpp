@@ -18,7 +18,8 @@ main()
     if(numero1==numero2 && numero1==numero3)
         printf("os três números são iguais");
 
-    else{
+    else
+    {
 
         if(numero1>numero2 && numero1>numero3)
         {
@@ -65,6 +66,6 @@ main()
             }
         }
 
-        }
+    } // Else
         
-}
+} // Main
